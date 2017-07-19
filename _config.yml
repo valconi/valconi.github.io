@@ -2,3 +2,4 @@ theme: jekyll-theme-slate
 title: Valconi
 description: Ramblings of a software engineer
 show_downloads: false
+encoding: UTF-8

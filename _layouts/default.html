@@ -5,22 +5,16 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <meta name="description" content="Valconi : Ramblings of a software engineer">
+    <meta name="description" content="Rich-C : Ramblings of a software engineer">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <title>Valconi</title>
+    <title>Rich-C</title>
   </head>
 
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <h1 id="project_title">Valconi</h1>
-          <h2 id="project_tagline">Ramblings of a software engineer</h2>
-        </header>
-    </div>
+{% include header.html %}
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -38,11 +32,6 @@
       </section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+{% include footer.html %}
   </body>
 </html>
